@@ -53,9 +53,36 @@
        
 // create a Array
  
-const numbers = [1,2,3,4,5];
-// add the new value in array in last 
-numbers.push(6);
-console.log(numbers);
+// const numbers = [1,2,3,4,5];
+// // add the new value in array in last 
+// numbers.push(6);
+// console.log(numbers);
+
+
+
+// Data types in javascript
+
+//PRIMITIVE TYPES
+
+//String
+ const name = 'pihu';
+ console.log(typeof name);
+ //Number
+  const age = 45;
+  console.log(typeof age);
+  //Boolean
+    const haskids = true;
+    console.log(typeof haskids);
+    //Null
+      const car = null;
+      console.log(typeof car);
+   //Undefined
+      let test;
+      console.log(test);
+   //Symbol
+       const sym = Symbol();
+       console.log(typeof sym);
+
+
 
 
