@@ -42,8 +42,14 @@
 
 // Object
     const person = {
-        name: 'krati'
+        name: 'krati',
+        age: 32
     }
+    // we can the values for object also
+    person.name = 'pihu';
     console.log(person);
+    // we can the values in object also
+       
+       
 
 
