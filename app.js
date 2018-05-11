@@ -64,25 +64,39 @@
 
 //PRIMITIVE TYPES
 
-//String
- const name = 'pihu';
- console.log(typeof name);
- //Number
-  const age = 45;
-  console.log(typeof age);
-  //Boolean
-    const haskids = true;
-    console.log(typeof haskids);
-    //Null
-      const car = null;
-      console.log(typeof car);
-   //Undefined
-      let test;
-      console.log(test);
-   //Symbol
-       const sym = Symbol();
-       console.log(typeof sym);
+// //String
+//  const name = 'pihu';
+//  console.log(typeof name);
+//  //Number
+//   const age = 45;
+//   console.log(typeof age);
+//   //Boolean
+//     const haskids = true;
+//     console.log(typeof haskids);
+//     //Null
+//       const car = null;
+//       console.log(typeof car);
+//    //Undefined
+//       let test;
+//       console.log(test);
+//    //Symbol
+//        const sym = Symbol();
+//        console.log(typeof sym);
 
+//Reference type - objects
+  //Array
+    const hobbies = ['movies', 'music'];
 
+    console.log(typeof hobbies);
+    //Object Literal
+       const address = {
+         city: 'sydney',
+         state: 'NSW'
+       }
+       console.log(typeof address);
+       
+       const today = new Date();
+       console.log(today);
+       console.log(typeof today);
 
 
