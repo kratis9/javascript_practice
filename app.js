@@ -25,7 +25,25 @@
 
 
 //LET
-let greeting;
-console.log(greeting);
-greeting = 'helloo'
-console.log(greeting);
+// let greeting;
+// console.log(greeting);
+// greeting = 'helloo'
+// console.log(greeting);
+
+// //CONST  always static
+
+// const name = 'krati';
+// console.log(name);
+// Can not reassign
+// name = 'pihu';
+// Have to assign a value
+  //const greeting; -- show error
+
+
+// Object
+    const person = {
+        name: 'krati'
+    }
+    console.log(person);
+
+
