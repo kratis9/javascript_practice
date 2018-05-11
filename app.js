@@ -40,16 +40,22 @@
   //const greeting; -- show error
 
 
-// Object
-    const person = {
-        name: 'krati',
-        age: 32
-    }
-    // we can the values for object also
-    person.name = 'pihu';
-    console.log(person);
-    // we can the values in object also
+// // Object
+//     const person = {
+//         name: 'krati',
+//         age: 32
+//     }
+//     // we can the values for object also
+//     person.name = 'pihu';
+//     console.log(person);
+//     // we can change the values in object also
        
        
+// create a Array
+ 
+const numbers = [1,2,3,4,5];
+// add the new value in array in last 
+numbers.push(6);
+console.log(numbers);
 
 
