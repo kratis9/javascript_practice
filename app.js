@@ -85,18 +85,45 @@
 
 //Reference type - objects
   //Array
-    const hobbies = ['movies', 'music'];
+    // const hobbies = ['movies', 'music'];
 
-    console.log(typeof hobbies);
-    //Object Literal
-       const address = {
-         city: 'sydney',
-         state: 'NSW'
-       }
-       console.log(typeof address);
+    // console.log(typeof hobbies);
+    // //Object Literal
+    //    const address = {
+    //      city: 'sydney',
+    //      state: 'NSW'
+    //    }
+    //    console.log(typeof address);
        
-       const today = new Date();
-       console.log(today);
-       console.log(typeof today);
+    //    const today = new Date();
+    //    console.log(today);
+    //    console.log(typeof today);
 
 
+// Type Converstion
+
+   let val;
+ //Number to String
+  val = String(555);
+  val = String(4+4);
+  //Bool to String
+    val = String(true);
+  //Date to String
+    val = String(new Date());
+  // Array to String
+    val = String([1,2,3,4]);
+
+
+  //toString
+   val = (5).toString();
+   val = (true).toString();
+
+
+
+
+
+
+  //Output
+    console.log(val);
+    console.log(typeof val);
+    console.log(val.length);
